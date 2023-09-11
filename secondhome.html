@@ -37,7 +37,7 @@
             />
           </li>
           <li>
-            <label for="photo">What is your email?</label>
+            <label for="photo">Drag here the photo?</label>
             <input
               type="image"
               id="image_image"
@@ -70,7 +70,7 @@
             <input type="text" id="drowssap" placeholder="drowssap" />
           </li>
           <li class="button">
-            <button type="submit">Save your answers!</button>
+          <button type="button" onclick="addData()">Add Data</button>          
           </li>
         </ul>
       </form>
@@ -78,21 +78,21 @@
       <table style="background-color:rgb(177, 124, 58);">
         <tr>
           <th>...question</th>
-          <td>This is your answer.</td>
+          <td id="data1">This is your answer.</td>
         </tr>
         <tr>
           <th>Your name?</th>
-          <td>...answer</td>
-        </tr>s your answer.</td>
-        </tr>
-        <tr>
-          <th>Your message?</th>
-          <td>...answer</td>
+          <td id="data2">...answer</td>
         </tr>s your answer.</td>
         </tr>
         <tr>
           <th>Your password?</th>
-          <td>...***...</td>
+          <td id="data3">...answer</td>
+        </tr>s your answer.</td>
+        </tr>
+        <tr>
+          <th>Your drowssap?</th>
+          <td id="data4">...***...</td>
         </tr>
       </table>
     </main>
@@ -112,5 +112,8 @@
       </nav>
     </aside>
     <footer style="background-color:rgb(127, 101, 68);">This is footer.</footer>
+
+    <script src="scripts\scr1.js"></script>
+
   </body>
 </html>
